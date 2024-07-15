@@ -1,9 +1,15 @@
 <template>
   <div class="content">
     <h1>Rsbuild with Vue</h1>
-    <p>Start building amazing things with Rsbuild.</p>
+    <p @click="handleClick">Start building amazing things with Rsbuild.</p>
   </div>
 </template>
+
+<script setup lang="ts">
+const handleClick = () => {
+  console.log(123);
+}
+</script>
 
 
 <style scoped>
